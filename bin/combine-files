@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# Get the parent directory (package root)
+PACKAGE_DIR="$(dirname "$SCRIPT_DIR")"
+
+# Default config file location
+CONFIG_FILE="$PACKAGE_DIR/config/default_excludes.txt"
+
+# Run the Python script with the config file
+exec python3 "$PACKAGE_DIR/lib/combine_files.py" --config "$CONFIG_FILE" "$@" 

@@ -1,0 +1,3 @@
+# This tool uses only Python standard library modules
+# Minimum Python version required
+python>=3.6

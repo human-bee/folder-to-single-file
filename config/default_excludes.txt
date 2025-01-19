@@ -1,0 +1,23 @@
+# Default patterns to exclude
+# One pattern per line
+.git
+__pycache__
+.pyc
+.class
+.o
+.DS_Store
+.build
+*.xcodeproj
+DerivedData
+*.xcworkspace
+*.xcassets
+*.xcuserstate
+node_modules
+.env
+.venv
+venv
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so 

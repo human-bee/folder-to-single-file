@@ -103,7 +103,7 @@ cat > "$QUICK_ACTION_DIR/Combine Files.workflow/Contents/document.wflow" << 'EOF
                     <key>COMMAND_STRING</key>
                     <string>for f in "$@"
 do
-    /usr/local/bin/combine-files "$f" "$f/combined_files.txt"
+    /usr/local/opt/combine-files/bin/combine-files "$f" "$f/combined_files.txt"
 done</string>
                     <key>CheckedForUserDefaultShell</key>
                     <true/>

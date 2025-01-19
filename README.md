@@ -2,7 +2,13 @@
 
 A tool to combine all text files from a directory into a single document, with a convenient Quick Action for Finder integration.
 
-![Demo](assets/demo.webp)
+## Demo
+
+### Setting up the Quick Action
+![Automator Setup](assets/Automation-screenshot.png)
+
+### Using the Quick Action
+![Demo of Usage](assets/demo.webp)
 
 ## Features
 
